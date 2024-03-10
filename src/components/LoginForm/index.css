@@ -1,0 +1,64 @@
+.app-container {
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #475569;
+  align-items: center;
+  width: 70vh;
+  height: 50vh;
+}
+label {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 120px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+input {
+  width: 200px;
+  height: 30px;
+  margin-left: 120px;
+  margin-bottom: 30px;
+  align-self: center;
+}
+.button {
+  background-color: #4f46e5;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 10px;
+  height: 37px;
+  width: 220px;
+
+  align-self: center;
+  color: #ffffff;
+  margin-left: 120px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.img {
+  height: 30px;
+  width: 120px;
+  align-self: center;
+  margin-top: 40px;
+}
+.error-msg {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 300;
+}
