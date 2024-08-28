@@ -1,5 +1,5 @@
 import Loader from 'react-loader-spinner'
-
+import {IoMdClose} from 'react-icons/io'
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
 import './index.css'
 
@@ -33,6 +33,7 @@ const ProfileDetails = props => {
           type="button"
           onClick={getProfileDetails}
         >
+          <IoMdClose size="30" color="#616e7c" aria-label="close" />
           Retry
         </button>
       </div>
