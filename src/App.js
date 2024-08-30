@@ -9,6 +9,7 @@ import JobItemDetails from './components/JobItemDetails'
 import './App.css'
 
 // These are the lists used in the application. You can move them to any component needed.
+// eslint-disable-next-line
 const employmentTypesList = [
   {
     label: 'Full Time',
@@ -27,7 +28,7 @@ const employmentTypesList = [
     employmentTypeId: 'INTERNSHIP',
   },
 ]
-
+// eslint-disable-next-line
 const salaryRangesList = [
   {
     salaryRangeId: '1000000',

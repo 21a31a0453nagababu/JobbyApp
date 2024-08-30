@@ -23,14 +23,14 @@
   align-self: center;
   margin-bottom: 20px;
 }
-@media screen and (min-width: 768px){
-    .login-form{
-        padding: 40px;
-    }
-    .website-logo-login-form{
-        width: 150px;
-        margin-bottom: 30px;
-    }
+@media screen and (min-width: 768px) {
+  .login-form {
+    padding: 40px;
+  }
+  .website-logo-login-form {
+    width: 150px;
+    margin-bottom: 30px;
+  }
 }
 
 .input-field-container {
@@ -58,25 +58,25 @@
   outline: none;
   cursor: pointer;
 }
-.login-button{
-    width: 100%;
-    background-color: #6366f1;
-    color: #f8fafc;
-    font-family: 'Roboto';
-    font-size: 14px;
-    font-weight: 600;
-    height: 40px;
-    border: none;
-    border-radius: 10px;
+.login-button {
+  width: 100%;
+  background-color: #6366f1;
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
 
-    cursor: pointer;
-    outline: none;
+  cursor: pointer;
+  outline: none;
 }
 
-.error-msg{
-    margin-top: 2px;
-    margin-left: 4px;
-    color: #ff0b37;
-    font-family: 'Roboto';
-    font-size: 13px;
+.error-msg {
+  margin-top: 2px;
+  margin-left: 4px;
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 13px;
 }

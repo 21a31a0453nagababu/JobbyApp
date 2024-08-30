@@ -1,11 +1,10 @@
-.not-found-page{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000000;
+.not-found-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
 }
-
 
 .not-found-container {
   /* border: 1px solid white; */
@@ -24,7 +23,6 @@
   width: 100%;
   max-width: 350px;
 }
-
 
 .not-found-heading {
   margin: 0;
